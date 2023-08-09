@@ -12,3 +12,4 @@ def grade_calculate(score):
     
 print(grade_calculate(85))
 print(grade_calculate(95))
+print(grade_calculate(75))
