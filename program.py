@@ -1,6 +1,13 @@
-print("My first program")
-print("My name is Prame")
-print("From My Program")
-print("Bye Bye")
-if 5 > 2:
-    print("Five is greater than two!")
+def grade_calculate(score):
+    if score >= 90:
+        return 'A'
+    elif score >= 80:
+        return 'B'
+    elif score >= 70:
+        return 'C'
+    elif score >= 60:
+        return 'D'
+    else:
+        return 'F'
+    
+print(grade_calculate(85))
