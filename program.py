@@ -11,3 +11,4 @@ def grade_calculate(score):
         return 'F'
     
 print(grade_calculate(85))
+print(grade_calculate(95))
